@@ -11,6 +11,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/main-topbar.css"/>
+    <link rel="stylesheet" href="assets/css/video.css"/>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
@@ -32,7 +34,24 @@
     </style>
 </head>
 <body class="is-preload">
-
+<!-- Topbar Menu -->
+<div id="topbar" class="topbar">
+    <div class="inner">
+        <ul id="menu">
+            <li style="font-weight: bold"><a href="#">B-KIJK</a></li>
+            <li><a href="#first">VIPP-School</a></li>
+            <li><a href="#publicaties">Publicaties</a></li>
+            <li><a href="#team">Onderzoeksteam</a></li>
+            <li><a href="#contacts">Contact</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <div class="logo">
+            <a href="#">Logo</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
+    </div>
+</div>
 <!-- Wrapper -->
 <div id="wrapper" class="divided">
 
@@ -41,7 +60,7 @@
             class="banner style1 color2 invert orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
         <div class="content">
             <header>
-                <h1>B-KIJK!</h1>
+                <h1>B-KIJK</h1>
                 <p>Beter met een Kind In Je Klas</p>
             </header>
             <p class="major">Binnen het Project B-KIJK worden leerkrachten op twee manieren getraind in het bevorderen
@@ -58,51 +77,36 @@
                 </li>
             </ul>
         </div>
-        <div class="image">
-            <img src="images/school/shutterstock_77123365.jpg" alt=""/>
+        <div class="image" style="background-color: #556688">
+            <div style="display: flex; align-items: center; justify-content: center; height: 100%">
+                <div style="width: 80%">
+                    <video width="100%" height="100%" class="" controls preload="metadata">
+                        <source src="videos/VIPP%20School%20v3.0.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </video>
         </div>
     </section>
-    <section id="first" class="spotlight style4 orient-center content-align-center image-position-center onscroll-image-fade-in">
+    <section id="first" class="spotlight style2 orient-right onscroll-image-fade-in">
         <div class="content">
+            <h2>
+                VIPP-School
+            </h2>
             <p>Met veel verschillende kinderen in de klas is het voor leerkrachten soms fijn om ondersteuning te krijgen
                 om met alle kinderen een goede relatie op te bouwen. Vooral de omgang met leerlingen die opstandig zijn
                 en moeilijk luisteren vinden leerkracht vaak een uitdaging. Een goede relatie tussen leerkracht en
                 leerling, met daarbij ook oog voor het stellen van grenzen, bevordert optimaal functioneren van
                 leerlingen en draagt bij aan een positieve sfeer in de klas. Dat is waar het project B-KIJK (Beter met
                 een Kind In Je Klas) zich op richt.</p>
+            <p>VIPP-School is een aanpassing van een bestaande effectieve interventie voor opvoeders en hun kinderen om probleemgedrag te verminderen en de onderlinge relatie te verbeteren (VIPP-SD). Deze interventie hebben we aangepast voor de schoolcontext. De leerkracht en de leerling worden gefilmd terwijl zij een aantal taakjes doen, en vervolgens worden de opnamen van de vorige keer teruggekeken en besproken.</p>
+            <p>Beide interventies zijn kortdurend (6 sessies in een periode van 3 maanden) en bieden leerkrachten via 1-op-1 coaching handvatten om de relatie met een leerling met moeilijk gedrag te verbeteren. Niet alleen de individuele leerling, maar de hele klas kan daar baat bij hebben!</p>
+
         </div>
-        <div class="image">
-            <img src="images/school/cdc-GDokEYnOfnE-unsplash.jpg" alt=""/>
+        <div class="image" style="background-color: revert">
+            <img src="images/vipp-school-logo-zoom-out.png" alt=""/>
 <!--            <img src="images/school/neonbrand-zFSo6bnZJTw-unsplash.jpg" alt=""/>-->
-        </div>
-    </section>
-    <section class="wrapper style1 align-center">
-        <div class="inner">
-            <h2>Twee interventies</h2>
-            <p>In dit project vergelijken we twee interventies die leerkrachten ondersteunen in de omgang met leerlingen
-                met moeilijk en opstandig gedrag: VIPP-School en Zoom-consultatie. </p>
-            <div class="items style1 big onscroll-fade-in">
-                <section>
-                    <span class="icon solid style2 major fa-school"></span>
-                    <h3>VIPP-School</h3>
-                    <p>VIPP-School is een aanpassing van een bestaande effectieve interventie voor opvoeders en hun
-                        kinderen om probleemgedrag te verminderen en de onderlinge relatie te verbeteren (VIPP-SD). Deze
-                        interventie hebben we aangepast voor de schoolcontext. De leerkracht en de leerling worden
-                        gefilmd terwijl zij een aantal taakjes doen, en vervolgens worden de opnamen van de vorige keer
-                        teruggekeken en besproken.</p>
-                </section>
-                <section>
-                    <span class="icon solid style2 major fa-desktop"></span>
-                    <h3>Zoom-consultatie</h3>
-                    <p>Zoom-consultatie gaat in op het welzijn en gedrag van de leerling aan de hand van een aantal
-                        thema's. Gesprekken vinden plaats met een orthopedagoog/psycholoog. Thema's die aan bod komen
-                        zijn o.a. contact met leeftijdsgenoten, stemming en leervorderingen. Er is ook ruimte voor
-                        vragen of thema's van de leerkracht zelf. Naar behoefte wordt advies gegeven.</p>
-                </section>
-            </div>
-            <p>Beide interventies zijn kortdurend (6 sessies in een periode van 3 maanden) en bieden leerkrachten via
-                1-op-1 coaching handvatten om de relatie met een leerling met moeilijk gedrag te verbeteren. Niet alleen
-                de individuele leerling, maar de hele klas kan daar baat bij hebben!</p>
         </div>
     </section>
     <section
@@ -235,6 +239,16 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.className === "") {
+            menu.className = "active";
+        } else {
+            menu.className = "";
+        }
+    }
+</script>
 
 </body>
 </html>
