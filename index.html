@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/main-topbar.css"/>
     <link rel="stylesheet" href="assets/css/video.css"/>
+    <link rel="stylesheet" href="assets/css/accordion.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
@@ -40,14 +43,13 @@
         <ul id="menu">
             <li style="font-weight: bold"><a href="#">B-KIJK</a></li>
             <li><a href="#first">VIPP-School</a></li>
-            <li><a href="#publicaties">Publicaties</a></li>
             <li><a href="#team">Onderzoeksteam</a></li>
-            <li><a href="#contacts">Contact</a></li>
-            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="#publicaties">Onderzoeksoutput</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="#faq">FAQ</a></li>
         </ul>
-        <div class="logo">
-            <a href="#">Logo</a>
+        <div class="logo" >
+            <img style="max-height: 65px"  src="/images/vipp-school-logo-geen-link.png" />
         </div>
         <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a>
     </div>
@@ -60,14 +62,25 @@
             class="banner style1 color2 invert orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
         <div class="content">
             <header>
-                <h1>B-KIJK</h1>
-                <p>Beter met een Kind In Je Klas</p>
-            </header>
-            <p class="major">Binnen het Project B-KIJK worden leerkrachten op twee manieren getraind in het bevorderen
-                van meer positieve interacties met leerlingen met moeilijk gedrag en het sensitief optreden bij
-                grensoverschrijdend gedrag. Hiervoor zijn twee interventies ontwikkeld voor gebruik binnen de
-                schoolcontext: VIPP-School en Zoom-consultatie.</p>
+                <div class="row">
 
+                    <div class="col-12">
+                        <h1>B-KIJK & VIPP-School</h1>
+                        <hr/>
+                    </div>
+                </div>
+
+            </header>
+            <p class="major">Binnen het Project B-KIJK (Beter met een Kind In Je Klas) is de effectiviteit een nieuwe
+                methodiek genaamd
+                <b style="white-space: nowrap">VIPP-School</b> onderzocht om leerkrachten te begeleiden in het
+                bevorderen van meer
+                positieve interacties met leerlingen en het sensitief optreden bij grensoverschrijdend gedrag.</p>
+
+            <p class="major">
+                Bekijk de animatie hiernaast voor een korte uitleg over VIPP-School en het onderzoek in het B-KIJK
+                project.
+            </p>
             <ul class="actions">
                 <li>
                     <a href="#first" class="button big wide smooth-scroll-middle">Lees verder</a>
@@ -80,13 +93,12 @@
         <div class="image" style="background-color: #556688">
             <div style="display: flex; align-items: center; justify-content: center; height: 100%">
                 <div style="width: 80%">
-                    <video width="100%" height="100%" class="" controls preload="metadata">
-                        <source src="videos/VIPP%20School%20v3.0.mp4" type="video/mp4">
+                    <video width="100%" height="100%" class="" controls preload="metadata" controlsList="nodownload">
+                        <source src="videos/VIPP%20School%20v3.0.mp4" type="video/mp4" controlsList="nodownload">
                         Your browser does not support the video tag.
                     </video>
                 </div>
             </div>
-        </video>
         </div>
     </section>
     <section id="first" class="spotlight style2 orient-right onscroll-image-fade-in">
@@ -94,79 +106,164 @@
             <h2>
                 VIPP-School
             </h2>
-            <p>Met veel verschillende kinderen in de klas is het voor leerkrachten soms fijn om ondersteuning te krijgen
-                om met alle kinderen een goede relatie op te bouwen. Vooral de omgang met leerlingen die opstandig zijn
-                en moeilijk luisteren vinden leerkracht vaak een uitdaging. Een goede relatie tussen leerkracht en
-                leerling, met daarbij ook oog voor het stellen van grenzen, bevordert optimaal functioneren van
-                leerlingen en draagt bij aan een positieve sfeer in de klas. Dat is waar het project B-KIJK (Beter met
-                een Kind In Je Klas) zich op richt.</p>
-            <p>VIPP-School is een aanpassing van een bestaande effectieve interventie voor opvoeders en hun kinderen om probleemgedrag te verminderen en de onderlinge relatie te verbeteren (VIPP-SD). Deze interventie hebben we aangepast voor de schoolcontext. De leerkracht en de leerling worden gefilmd terwijl zij een aantal taakjes doen, en vervolgens worden de opnamen van de vorige keer teruggekeken en besproken.</p>
-            <p>Beide interventies zijn kortdurend (6 sessies in een periode van 3 maanden) en bieden leerkrachten via 1-op-1 coaching handvatten om de relatie met een leerling met moeilijk gedrag te verbeteren. Niet alleen de individuele leerling, maar de hele klas kan daar baat bij hebben!</p>
-
+            <p class="small">
+                <i>
+                    Video-feedback Intervention to promote Positive Parenting and Sensitive Discipline for
+                    Schools
+                </i>
+            </p>
+            <p>
+                Met veel verschillende kinderen in de klas is het voor leerkrachten soms fijn om ondersteuning te
+                krijgen om met alle kinderen een goede relatie op te bouwen. Soms laten leerlingen gedrag zien waarvan
+                leerkrachten het moeilijk vinden om hiermee om te gaan. Een sterke relatie tussen leerkracht en
+                leerling, gecombineerd met duidelijke grenzen, bevordert het functioneren van leerlingen en een
+                positieve sfeer in de klas.</p>
+            <p>VIPP-School is een training voor leerkrachten in groep 1 t/m 4 om de interactie met leerlingen te
+                verbeteren. Het programma helpt leerkrachten om de interactie met leerlingen te versterken. De interventie bestaat uit zes bezoeken, waarbij leerkrachten samen met een leerling korte activiteiten doet
+                (zoals lezen of puzzelen), die gefilmd worden. De beelden worden vervolgens met de leerkracht
+                nabesproken.</p>
+            <p>
+                Onderzoek toont aan dat VIPP-School leerkrachten helpt om sensitiever met leerlingen om te gaan. Deze
+                aanpak verbetert niet alleen de interactie met één leerling, maar heeft ook een positief effect op de
+                hele klas.
+            </p>
         </div>
         <div class="image" style="background-color: revert">
             <img src="images/vipp-school-logo-zoom-out.png" alt=""/>
-<!--            <img src="images/school/neonbrand-zFSo6bnZJTw-unsplash.jpg" alt=""/>-->
-        </div>
-    </section>
-    <section
-            class="spotlight color2 invert onscroll-image-fade-in style1 fullscreen orient-left content-align-left image-position-left">
-        <div class="content">
-            <h2>Tijdsinvestering</h2>
-            <p>Beide interventies bestaan uit zes consulten en vragen een maximale tijdsinvestering van 9,5 uur in 6
-                maanden. De afspraken vinden individueel met een coach plaats op een moment dat de leerkracht (en
-                leerling) goed uitkomt.
-                Om iets te kunnen zeggen over welke interventie het beste werkt, zijn er daarnaast – in het kader van
-                het onderzoek – drie meetmomenten van ieder een half uur. De school ontvangt een vergoeding voor deze
-                tijd.</p>
-        </div>
-        <div class="image">
-            <img src="images/school/linkedin-sales-navigator-NpyF7rjqmq4-unsplash.jpg" alt=""/>
-        </div>
-    </section>
-    <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
-        <div class="content">
-            <h2>Scholen gezocht!</h2>
-            <p>Op dit moment zijn de eerste 30 leerkrachten gestart met het project. We hebben nog ruimte voor meer
-                scholen om mee te doen aan het project. Het project loopt 2 jaar en deelname is kosteloos. De
-                interventies zijn ontwikkeld voor leerkrachten van groep 1 t/m groep 4, omdat door vroeg in de
-                schoolcarrière in te grijpen, grotere problemen – en daarmee uitval van leerlingen en leerkrachten -
-                voorkomen kunnen worden. De interventie de na afloop van het project leerkrachten het beste blijkt te
-                ondersteunen, wordt vervolgens aangeboden vanuit (een deel van de aangesloten)
-                samenwerkingsverbanden.</p>
-            <p>Binnen het project loten we welke leerkracht welke interventie krijgt. Dit doen we zodat alle deelnemende
-                scholen kunnen profiteren van beide interventies.</p>
-        </div>
-        <div class="image">
-            <img src="images/school/kimberly-farmer-lUaaKCUANVI-unsplash.jpg" alt=""/>
-        </div>
-    </section>
-    <section class="spotlight color2 invert style2 orient-left content-align-left image-position-center onscroll-image-fade-in">
-        <div class="content">
-            <h2>Samenwerking</h2>
-            <p>De studie wordt uitgevoerd in een samenwerkingsverband tussen de Vrije Universiteit, Universiteit Leiden,
-                Yulius Onderwijs, CBS Smitshoek, OBS de Bosweide, OBS Over de Slinge, Samenwerkingsverband RiBA.</p>
-        </div>
-        <div class="image">
-            <img src="images/logo.png" alt="B-KIJK: Beter met een Kind In Je Klas"/>
-        </div>
-    </section>
-    <section id="contact" class="spotlight style4 orient-center content-align-center image-position-center onscroll-image-fade-in">
-        <div class="content">
-            <h2>Interesse?</h2>
-            <p>Neem voor meer informatie contact op met Mathilde&nbsp;Overbeek:</p>
-            <a href="mailto:m.m.overbeek@vu.nl?subject=Meer informatie B-KIJK&body=Beste Mathilde Overbeek en Team B-KIJK%2C%0D%0A%0D%0AGraag ontvang ik meer informatie over een eventuele deelname aan het project B-KIJK.%0D%0A%0D%0ANaam:%0D%0ATelefoon:%0D%0A"
-               class="button big wide smooth-scroll-middle">m.m.overbeek@vu.nl</a>
-            <a href="tel:06-18422132" class="button big wide smooth-scroll-middle">06-18422132</a>
-        </div>
-        <div class="image">
-            <img src="images/school/mike-fox-P5PhmW-OoJg-unsplash.jpg" alt=""/>
+            <!--            <img src="images/school/neonbrand-zFSo6bnZJTw-unsplash.jpg" alt=""/>-->
         </div>
     </section>
 
-    <section class="wrapper style1 align-center color2 invert ">
+
+    <section id="publicaties" class="wrapper style1 color2 invert">
         <div class="inner">
-            <h2>Team</h2>
+            <h2 class="align-center">Onderzoeksoutput</h2>
+            <p class="align-center">
+                De resultaten van het onderzoek zijn samengevat in het eindrapport, geschreven voor het Nationaal Regieorgaan Onderwijsonderzoek (NRO)
+            </p>
+            <p class="align-center">
+                <a href="/assets/pdf/eindrapport-nro-vipp-school.pdf" target="_blank">
+                    Klik hier</a> om het eindrapport te downloaden
+            </p>
+            <hr />
+            <ol>
+                <li style="margin-bottom: 0.9rem">
+                    <div>
+                        Hoe is de VIPP-School interventie ontwikkeld?
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                        </svg>
+                        <a href="https://journals.sagepub.com/doi/full/10.1177/01430343231184001" target="_blank">
+                            <span style="padding-left: 0.5rem">https://journals.sagepub.com/doi/full/10.1177/01430343231184001</span></a>
+                        (ENG)
+                    </div>
+                </li>
+                <li style="margin-bottom: 0.9rem">
+                    <div>
+                        Wat is VIPP-School en wat is het B-KIJK project?
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                        </svg>
+                        <a href="/videos/VIPP School v3.0.mp4" style="padding-left: 0.5rem" target="_blank">Animatie VIPP-School</a> (NL)
+                        <a href="/videos/VIPP School v3.0.mp4" style="padding-left: 1rem" target="_blank">Animatie</a> (NL Ondertiteld)
+                        <a href="/videos/VIPP School v3.0.mp4" style="padding-left: 1rem" target="_blank">Animation</a> (English Subtitles)
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                        </svg>
+                        <a href="#publicaties">
+                            <span style="padding-left: 0.5rem">Infographic B-KIJK project</span></a> (NL)
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                        </svg>
+                        <span style="padding-left: 0.5rem">Publicatie in <i>Kinder- & Jeugdpsychotherapie</i> <a href="mailto:k.m.starreveld@vu.nl">op aanvraag</a> (NL)</span>
+                    </div>
+
+                </li>
+                <li style="margin-bottom: 0.9rem">
+                    <div>
+                        Wat is de effectiviteit van VIPP-School?
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+                        </svg>
+                        <a href="https://osf.io/preprints/psyarxiv/hg5kr" target="_blank">
+                            <span style="padding-left: 0.5rem">https://osf.io/preprints/psyarxiv/hg5kr</span></a>
+                        (ENG)
+                    </div>
+
+                </li>
+                <li style="margin-bottom: 0.9rem">
+                    <div>
+                        Hoe verloopt het leerproces van leerkrachten in VIPP-School?
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hourglass-split" viewBox="0 0 16 16">
+                            <path d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48zm1 0v3.17c2.134.181 3 1.48 3 1.48a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351z"/>
+                        </svg>
+                        <span style="padding-left: 0.5rem">
+                        Binnenkort beschikbaar (ENG)</span>
+                    </div>
+                </li>
+                <li style="margin-bottom: 0.9rem">
+                    <div>
+                        Hoe kunnen leerkrachten inzichten uit de gehechtheidstheorie en sociale leertheorie inzetten volgens VIPP-School?
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hourglass-split" viewBox="0 0 16 16">
+                            <path d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48zm1 0v3.17c2.134.181 3 1.48 3 1.48a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351z"/>
+                        </svg>
+                        <span style="padding-left: 0.5rem">
+                        Binnenkort beschikbaar in <i>Jeugd in School en Wereld</i> (NL)</span>
+                    </div>
+                </li>
+                <li style="margin-bottom: 0.9rem">
+                    <div>
+                        Hoe kun je als begeleider leerkrachten ondersteunen in de omgang met gedragsproblemen in de klas?
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hourglass-split" viewBox="0 0 16 16">
+                            <path d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48zm1 0v3.17c2.134.181 3 1.48 3 1.48a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351z"/>
+                        </svg>
+                        <span style="padding-left: 0.5rem">
+                        Binnenkort beschikbaar in <i>Beter Begeleiden</i> (NL)</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        Hoe kun je de interactie tussen de leerkracht en de klas in kaart brengen?
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hourglass-split" viewBox="0 0 16 16">
+                            <path d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48zm1 0v3.17c2.134.181 3 1.48 3 1.48a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351z"/>
+                        </svg>
+                        <span style="padding-left: 0.5rem">
+                        Binnenkort beschikbaar (ENG)</span>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="team" class="wrapper style1 align-center color0">
+        <div class="inner">
+            <h2>Onderzoeksteam</h2>
             <div class="items style1 big onscroll-fade-in">
                 <section>
                     <p class="avatar">
@@ -176,9 +273,7 @@
                         <h3>Mathilde Overbeek</h3>
                         <p>Projectleider</p>
                     </header>
-                    <p>Senior onderzoeker Yulius&nbsp;Academie, onderzoeker Vrije&nbsp;Universiteit</p>
-                    <p><a href="mailto:m.m.overbeek@vu.nl">m.m.overbeek@vu.nl</a>, <a
-                            href="tel:06-18422132">06-18422132</a></p>
+                    <p>Research track coordinator 'Child, family, trauma' at ARQ Nationaal Psychotrauma Centrum</p>
                 </section>
                 <section>
                     <p class="avatar">
@@ -188,7 +283,7 @@
                         <h3>Kim Starreveld</h3>
                         <p>Promovenda</p>
                     </header>
-                    <p>Promovenda Project&nbsp;B-KIJK, Vrije&nbsp;Universiteit</p>
+                    <p>Promovenda Project&nbsp;B-KIJK at Clinical Child and Family Studies, Vrije&nbsp;Universiteit Amsterdam</p>
                     <p><a href="mailto:k.m.starreveld@vu.nl">k.m.starreveld@vu.nl</a>
                 </section>
                 <section>
@@ -196,10 +291,9 @@
                         <img src="images/team/marian.png" alt="Marian Bakermans-Kranenburg">
                     </p>
                     <header>
-                        <h3>Marian Bakermans-Kranenburg</h3>
+                        <h3 style="white-space: nowrap">Marian Bakermans-Kranenburg</h3>
                     </header>
-                    <p> Hoogleraar Neurobiologische en omgevingsdeterminanten van opvoeding en ontwikkeling, Vrije&nbsp;Universiteit</p>
-                    <p><a href="mailto:m.j.bakermans@vu.nl">m.j.bakermans@vu.nl</a>
+                    <p> Full professor at ISPA. Visiting scholar and research associate at the Center for Attachment Research, The New School for Social Research, and visiting professor at the National Institute of Education, Nanyang Technical University.</p>
                 </section>
                 <section>
                     <p class="avatar">
@@ -208,24 +302,92 @@
                     <header>
                         <h3>Agnes Willemen</h3>
                     </header>
-                    <p>Universitair hoofddocent, Vrije&nbsp;Universiteit</p>
-                    <p><a href="mailto: a.m.willemen@vu.nl">a.m.willemen@vu.nl</a>
+                    <p>Director of Education, Associate Professor at Clinical Child and Family Studies, Vrije Universiteit Amsterdam</p>
                 </section>
             </div>
+            <div>
+
+                <h2>
+                    Samenwerking
+
+                </h2>
+                <p>Aan dit onderzoek werkten scholen uit de volgende provincies mee:
+
+                </p>
+                <p class="small">
+                    <b>Gelderland</b> (Eerbeek, Lunteren, Woudenberg, Zevenhuizen), <b>Noord-Holland</b> (Abcoude, Amsterdam, Haarlem, Hilversum, Weesp), <b>Overijssel</b> (Almelo, Zwolle), <b>Utrecht</b> (De Meern, Leidsche Rijn, Maartensdijk, Vleuten), <b>Zeeland</b> (Kamperland, 's-Heerenhoek) en <b>Zuid-Holland</b> (Alblasserdam, Alphen a/d Rijn, Bleiswijk, Capelle a/d IJssel, Dordrecht, Gouderak, Haastrecht, Hendrik-Ido-Ambacht, Ridderkerk, Rhoon, Rozenburg, Rotterdam, Spijkenisse, Waddinxveen, Zwijndrecht)
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact"
+             class="spotlight style4 orient-center content-align-center image-position-center onscroll-image-fade-in">
+        <div class="content">
+            <h2>Meer weten?</h2>
+            <p>Neem voor meer informatie contact op met Kim&nbsp;Starreveld</p>
+            <a href="mailto:k.m.starreveld@vu.nl?subject=Meer informatie VIPP-School"
+               class="button big wide smooth-scroll-middle">k.m.starreveld@vu.nl</a>
+        </div>
+        <div class="image">
+            <img src="images/school/mike-fox-P5PhmW-OoJg-unsplash.jpg" alt=""/>
+        </div>
+    </section>
+
+    <section id="faq" class="wrapper style1 color2 invert">
+        <div class="inner">
+            <h2 class="align-center">FAQ</h2>
+        <div class="accordion-body">
+            <div class="accordion">
+                <hr>
+                <div class="container">
+                    <div class="label">Wat is VIPP-School?</div>
+                    <div class="content">VIPP-School staat voor: Video-feedback Intervention to promote Positive Parenting and Sensitive Discipline for Schools. Deze interventie begeleid leerkrachten in het bevorderen van meer positieve interacties met leerlingen en het sensitief optreden bij grensoverschrijdend gedrag. Kijk voor meer informatie de animatie of lees een van de onderzoeksartikelen. </div>
+                </div>
+                <hr>
+                <div class="container">
+                    <div class="label">Wat is de doelgroep van VIPP-School?</div>
+                    <div class="content"></div>
+                </div>
+                <hr>
+                <div class="container">
+                    <div class="label">Hoe is de effectiviteit van VIPP-School getoetst?</div>
+                    <div class="content"></div>
+                </div>
+                <hr>
+                <div class="container">
+                    <div class="label">Hoe kan ik VIPP-school coach worden?</div>
+                    <div class="content"></div>
+                </div>
+                <hr>
+                <div class="container">
+                    <div class="label">Hoe kan ik begeleiding ontvangen van een VIPP-School coach?</div>
+                    <div class="content"></div>
+                </div>
+                <hr>
+                <div class="container">
+                    <div class="label">Ik heb een leerling met lastig gedrag, hoe kan ik hiermee omgaan? </div>
+                    <div class="content"></div>
+                </div>
+                <hr>
+            </div>
+        </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="wrapper style1 align-center color1 invert">
         <div class="inner">
-<!--            <ul class="icons">-->
-<!--                <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>-->
-<!--                <li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>-->
-<!--                <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>-->
-<!--                <li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
-<!--                <li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>-->
-<!--            </ul>-->
-            <p>&copy; Project B-KIJK - Ontwerp: <a href="https://html5up.net">HTML5 UP</a> - Foto's: <a href="https://unsplash.com">Unsplash</a>, <a href="https://shutterstock.com">Shutterstock</a></p>
+            <!--            <ul class="icons">-->
+            <!--                <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>-->
+            <!--                <li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+            <!--                <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>-->
+            <!--                <li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
+            <!--                <li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>-->
+            <!--            </ul>-->
+            <p>&copy; Project B-KIJK - Ontwerp: <a href="https://html5up.net">HTML5 UP</a> - Foto's: <a
+                    href="https://unsplash.com">Unsplash</a>, <a href="https://shutterstock.com">Shutterstock</a></p>
         </div>
     </footer>
 
@@ -239,6 +401,10 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
 <script>
     function toggleMenu() {
         var menu = document.getElementById("menu");
@@ -248,6 +414,32 @@
             menu.className = "";
         }
     }
+
+
+    // Function to close the menu after clicking a link (only on mobile)
+    function closeMenuOnMobile() {
+        // Check if the screen width is less than or equal to 768px (mobile size)
+        if (window.innerWidth <= 768) {
+            var menu = document.getElementById("menu");
+            if (menu.className === "active") {
+                menu.className = ""; // Close the menu
+            }
+        }
+    }
+
+    // Add event listeners to all topbar links to close the menu on click
+    document.querySelectorAll('#menu li a').forEach(link => {
+        link.addEventListener('click', closeMenuOnMobile);
+    });
+
+    const accordion = document.getElementsByClassName('container');
+
+    for (i=0; i<accordion.length; i++) {
+        accordion[i].addEventListener('click', function () {
+            this.classList.toggle('active')
+        })
+    }
+
 </script>
 
 </body>
